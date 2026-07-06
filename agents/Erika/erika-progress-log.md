@@ -1,6 +1,6 @@
 # Erika Progress Log
 
-Log started: 
+Log started:
 Last updated:
 
 ## Lesson and Exam Scores
