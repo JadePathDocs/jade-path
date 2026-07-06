@@ -16,9 +16,11 @@ The user had a creative writing project they wanted to make progress on but coul
 A completion signal dynamic was noted: the user was unable to move to the creative task until a smaller administrative item (updating a document) was closed first. The administrative task was completed, and the creative work became accessible immediately after. This is a consistent pattern — the nervous system requires a closed loop before releasing into the next thing.
 
 ### Flags for next session
+
 - Creative writing project progress — did the session's momentum carry forward?
 - Sleep pattern — disrupted night, worth checking if this is recurring
 - Completion signal pattern: increasingly well-documented, worth naming explicitly to the user's therapist
 
 ### Profile notes
+
 - Completion signal pattern confirmed across another instance. No new profile changes warranted.
