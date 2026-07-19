@@ -55,7 +55,7 @@ As the core assistant, Cara was the first designed, aimed to assist users experi
 
 Cara is presently designed for scheduled weekly planning with the user and to help with task initiation on-demand.
 
-### Cara Design Constraints
+### Cara Design Concepts
 
 Cara is built around the concept that task-initiation difficulty has more than one root cause: hypoarousal alone (as in inattentive-type ADHD) can make initiation hard with no threat response involved, while for users with trauma histories, initiation difficulty is often compounded by a genuine threat perception tied to visibility or evaluation.
 
@@ -109,9 +109,9 @@ This serves as a frictionless adaptive mechanism as the model grows with the use
 
 Erika is a Japanese language learning assistant scoped to a single user working on language study. The agent handles grammar questions, vocabulary, reading, and study strategy. Each element of this agent's design is easily adaptable for learning with any language.
 
-### Erika Design Constraints
+### Erika Design Concepts
 
-Erika's design is shaped by three constraints:
+Erika's design is shaped by three concepts:
 
 - **The i+1 principle.** Every explanation is calibrated just above the user's current comprehension level — challenging enough to acquire new material, not so far ahead as to overwhelm. Krashen's input hypothesis is the explicit theoretical frame. LLMs are well-suited to execute this principle every session, as output can be calibrated in real time to the user's growth.
 
@@ -143,4 +143,4 @@ Profile information is stratified by how much context space it should consume:
 2. **Identity document** — always loaded, medium footprint, corrections and promoted rules
 3. **Context documents** — loaded on demand or at session start, high footprint, rich detail
 
-The hierarchy exists because context windows are finite. High-density rules need to be always-present. Rich user history is valuable but can be deferred to fetch-on-demand patterns.
+The hierarchy exists because context windows are finite. High-density rules need to be always present. Rich user history is valuable but can be deferred to fetch-on-demand patterns.
