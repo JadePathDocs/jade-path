@@ -130,5 +130,4 @@ Please consider the following before integrating this system into your own workf
 
 ## Near-term Roadmap
 
-- Complete `memory-architecture.md` and `infrastructure.md`.
 - Commit results of ongoing model testing across agents (current: Qwen model efficacy testing with Erika).
