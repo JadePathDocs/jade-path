@@ -41,5 +41,5 @@ Recommended LibreChat settings for file search are scheduled for future work. Fu
 
 ## Roadmap
 
-- Tune LibreChat rag_api chunk size/overlap against the session-log corpus.
+- Tune LibreChat rag_api chunk size/overlap against the `session-log` corpus.
 - Evaluate whether embedding model choice affects retrieval quality meaningfully at this corpus size.
