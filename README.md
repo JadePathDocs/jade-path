@@ -18,7 +18,7 @@ Jade Path is currently optimized for use with LibreChat, though its components c
 
 1. In a Markdown editor, review the contents of `agents/tone-calibration.md` and adjust as necessary.
 2. Fill out `agents/user-profile.md` with the user's context, using the template fields as a guide. Keep entries factual and scoped — see **Privacy & Data Handling** below.
-3. Upload `agents/Cara/cara-session-log.md` to your memory storage (for example, Notion via MCP).
+3. Upload `agents/Cara/cara-session-log.md` to your memory storage (for example, local storage over MCP).
 
 ### Agent Creation
 
@@ -69,7 +69,7 @@ Please consider the following before integrating this system into your own workf
 - If you connect these agents to a third-party cloud LLM provider, be aware that data from your user profile and logs, in whole or in part, may be sent to that provider for processing. Review that provider's data handling policies before sending sensitive content.
   For example, OpenRouter has docs on [Data Collection](https://openrouter.ai/docs/guides/privacy/data-collection) and [Provider Logging](https://openrouter.ai/docs/guides/privacy/provider-logging) that are worth understanding before use.
 - Jade Path can easily be adapted to work in web-based environments (claude.ai, Perplexity, etc.) and use MCP connectors (Notion, Dropbox) for external storage of your supporting documents. Please review privacy policies and terms of use carefully for each service involved in request handling.
-- Consider what level of detail actually needs to live in a profile document. Specificity helps the agent, exhaustive detail may not be necessary.
+- Consider what level of detail actually needs to live in a profile document. Specificity helps the agent, but exhaustive detail may not be necessary.
 
 ## Repo Structure
 
@@ -119,11 +119,11 @@ Please consider the following before integrating this system into your own workf
     </tr>
     <tr>
       <td colspan="2"><code>memory-architecture.md</code></td>
-      <td>Memory format evolution and tradeoffs (stub, planned for development)</td>
+      <td>Memory format evolution and tradeoffs</td>
     </tr>
     <tr>
       <td colspan="2"><code>infrastructure.md</code></td>
-      <td>Self-hosted stack and provider setup (stub, planned for development)</td>
+      <td>Self-hosted stack and provider setup</td>
     </tr>
   </tbody>
 </table>
